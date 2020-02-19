@@ -1,0 +1,11 @@
+@import './partials/config';
+
+body {
+  background-color: $primary-color;
+
+  .header {
+    display: block;
+    width: 100%;
+    @include transition300();
+  }
+}
